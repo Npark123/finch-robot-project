@@ -116,3 +116,24 @@ If you complete your chosen challenge early, consider:
 - Creating a user interface to control robot parameters (JFrame, Swing, JavaFX)
 - Implementing multiple modes of operation
 - Adding an obstacle detection and avoidance system
+
+## Our Project Description and Objectives 
+Our Project was to program a 2.0 Finch Robot to do the desired action that we wanted. The main objectives that were suggested were to either:
+- Make it Dance
+- Draw something with the Robot
+- Complete the Maze
+We decided on our objective to complete the maze making it go from start to finish, and also have it play a celebration song at the end.
+
+## Choices, challenges, and Solutions
+Some choices that we made were the celebration song that we were going to use and also added some color to the LED lights of the Finch. We had made the Finch LED lights blue
+and selected the song "Victory Fanfare" from the game Final Fantasy VII, and used only the intro of the song.  
+Challenges that we faced were trying to debug the playNote issue. We solved this with a little help from the teacher and was able to make a sub class of the Finch Robot called Music Robot to have a method which 
+plays the note and the pauses to solve the error. The main class that we used then extended the Music Robot class in order to be able to use the method from the Music Robot class. 
+Another challenge that we faced was figuring out the notes and which ones were correct. With a littl clarification from the teacher we were able to find out the middle C note was defined
+by the integer 60 and was able to use that for finding other notes. 
+
+## Future Enhancements
+Some future enchancements that I would've made were to include more algorithms and conditionals for the maze instead of hard coding it, so if I ever ran into a error in the maze, the robot would be able to correct itself and get back on the path it's supposed to. Another enchanment I would make would be to make the celebrations song the full song instead of just the intro which could've been done with more time. 
+
+## Video 
+[![Finch Maze and celebration]![image](https://github.com/user-attachments/assets/a28aac68-b34c-4f90-b106-27ce39d188bb)(https://www.youtube.com/shorts/CcKIQnBaxRY)
